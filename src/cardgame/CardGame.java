@@ -83,7 +83,7 @@ class Card{
     }
     
     public static String printInfo(){
-        return " Hi! My name is Tsz Fung Chan, aka Richie. I was a Mechanical Engineer from Hong Kong.\nAnd I study Computer Programming to change my career and hope to develop my career in Canada in the future. \nAlso I want to start a new life in Canada. ";
+        return " I'm done! Hi! My name is Tsz Fung Chan, aka Richie. I was a Mechanical Engineer from Hong Kong.\nAnd I study Computer Programming to change my career and hope to develop my career in Canada in the future. \nAlso I want to start a new life in Canada. ";
     }
     
 }
