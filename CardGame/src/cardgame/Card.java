@@ -49,5 +49,8 @@ public class Card {
     public void setSuit(Suit suit) {
         this.suit = suit;
     }
+    public void printInfo() {
+        System.out.println("Hi, I am Anish Siwakoti a student at Sheridan College currently pursuing CST with the hope of developing my skills in the computing field.");
+    }
 
 }
