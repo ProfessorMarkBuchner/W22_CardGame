@@ -65,5 +65,8 @@ public class CardGame {
 
         System.out.println(response);
     }
-
+public static printInfo()
+{
+System.out.println("My name is Karan Mehta.I am pursuing computer system technician-software engineering in sheridan college!");
+}
 }
