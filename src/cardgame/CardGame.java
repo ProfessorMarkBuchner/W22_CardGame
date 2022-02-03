@@ -14,6 +14,10 @@ public class CardGame {
     /**
      * @param args the command line arguments
      */
+    public static String printInfo(){
+        return " My name is Umesh Thapa. I got enrolled into Sheridan College in Computer Systems Technology – Information Systems Engineering";
+    }
+    
     public static void main(String[] args) {
            Scanner input = new Scanner(System.in);
 
@@ -59,6 +63,7 @@ public class CardGame {
 //        }
     
         String response = match ? "Right guess": "No match";
+       System.out.println ("My info is : " + printInfo());
         
         System.out.println(response);
     }
