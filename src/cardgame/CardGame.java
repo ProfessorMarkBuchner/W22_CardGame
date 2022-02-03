@@ -6,7 +6,8 @@ import java.util.Scanner;
 /**
  * This class models a simple card guessing game
  * 
- * @author Paul Bonenfant
+ * @author Umesh Thapa
+ * Date:   February 02 2022
  */
 public class CardGame {
 
