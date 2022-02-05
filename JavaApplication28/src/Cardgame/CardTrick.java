@@ -6,7 +6,7 @@ package Cardgame;
 
 /**
  *
- * @author Aashmeen
+ * @author Aashmeen Feb2022
  */
 public class CardTrick extends Card {
     private String playername;
@@ -23,6 +23,6 @@ public class CardTrick extends Card {
     public void setPlayername(String playername) {
         this.playername = playername;
     }
-    
+    System.out.println("Info about me : " + \n + "Name-Aashmeen Kaur," + "StudentId-991642487");
     
 }
