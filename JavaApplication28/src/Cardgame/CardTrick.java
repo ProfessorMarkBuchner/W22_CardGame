@@ -23,6 +23,9 @@ public class CardTrick extends Card {
     public void setPlayername(String playername) {
         this.playername = playername;
     }
-    
+    // Name-AASHMEEN KAUR
+    //STUDENT ID - 991642487
+    //PROGRAM-COMPUTER PROGRAMMING
+    //SEMESTER-2
     
 }
