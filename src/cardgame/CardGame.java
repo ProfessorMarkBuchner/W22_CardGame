@@ -5,9 +5,8 @@ import java.util.Scanner;
 
 /**
  * This class models a simple card guessing game
- * 
- * @author Jeffrey Logue 
- * Date - 2022-02-02
+ *
+ * @author Jeffrey Logue Date - 2022-02-02
  */
 public class CardGame {
 
@@ -15,7 +14,7 @@ public class CardGame {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-           Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // Create an array to hold 7 cards
         Card[] hand = new Card[7];
@@ -32,12 +31,10 @@ public class CardGame {
         }
 
         // print them out for debugging purposes
-        
         //System.out.println("Here are the cards in the hand");
         //for (Card card : hand) {
-            //System.out.printf("%d of %s\n", card.getValue(), card.getSuit());
+        //System.out.printf("%d of %s\n", card.getValue(), card.getSuit());
         //}
-
         // Now ask the user for a card
         System.out.println("Pick a suit for your card");
         for (int i = 0; i < Card.SUITS.length; i++) {
@@ -51,8 +48,7 @@ public class CardGame {
         Card userGuess = new Card(value, Card.SUITS[suit - 1]);
 
         boolean match = false;
-        
-        
+
         for (Card card : hand) {
             if (card.getValue() == userGuess.getValue()
                     && card.getSuit().equals(userGuess.getSuit())) {
@@ -61,17 +57,15 @@ public class CardGame {
                 break;
             }
         }
-    
-        String response = match ? "Right guess": "No match";
-                
-        System.out.println(response);
-        
+
+        String response = match ? "Right guess" : "No match";
+        printInfo(response);
     }
-    
+
     /**
-     *
+     * @param response*
      */
-    public static void printInfo(){
-        
+    public static void printInfo(String response) {
+        System.out.println(response);
     }
 }
