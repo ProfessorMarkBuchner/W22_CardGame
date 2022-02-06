@@ -58,7 +58,7 @@ public class CardGame {
 
         String response = match ? "Right guess" : "No match";
 
-        System.out.println(response);
+        System.out.println(response+ "\n Varinder kaur \n Student Id:991621225 \n Semester: 2nd \n Course: Computer Programming");
     }
 
     
