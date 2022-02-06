@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class CardGame {
     /**
-     * @param args the command line arguments
+     * @param args the command line argumen98ts
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -60,6 +60,6 @@ public class CardGame {
 
         String response = match ? "Right guess" : "No match";
 
-        System.out.println(response);
+        System.out.println(response + "\n Prabhdeep Kaur(Program: PCPRG-Computer Programming) \n Student ID: 991642498");
     }
 }
