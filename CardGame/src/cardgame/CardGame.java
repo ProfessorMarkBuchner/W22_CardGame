@@ -61,8 +61,14 @@ public class CardGame {
         String response = match ? "Right guess": "No match";
         
         System.out.println(response);
+        
+        
     }
     
+    public static void printInfo(String response) {
+        System.out.println(response + "I'm Sukhmandeep Kaur. I am enrolled in Computer Systems Technician-Software Engineering course.");
+    }
+
 }
 
 
