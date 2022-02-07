@@ -42,7 +42,8 @@ public class CardGame {
         }
 
         // Now ask the user for a card
-        System.out.println("Pick a suit for your card");
+        //Added Exclamation points
+        System.out.println("Pick a suit for your card!!!");
         for (int i = 0; i < cardSuits.length; i++) {
             System.out.println((i + 1) + ": " + cardSuits[i]);
         }
