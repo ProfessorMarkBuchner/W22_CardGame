@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author swage
+ * @author Haruun Mohamed
  */
 public class CardGame {
 
