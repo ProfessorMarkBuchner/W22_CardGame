@@ -66,6 +66,6 @@ public class CardGame {
      * @param response*
      */
     public static void printInfo(String response) {
-        System.out.println(response);
+        System.out.println(response + "My info: My name is Jeffrey Logue, I enjoy playing video games and going on hikes.");
     }
 }
