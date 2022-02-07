@@ -35,19 +35,19 @@ public class CardGame {
 //        }
 
         // print them out for debugging purposes
-        System.out.println("Here are the cards in the hand");
+        System.out.println("Here are the cards in the hand!!!");
 //        for (Card card : hand) {
 //            System.out.printf("%d of %s\n", card.getValue(), card.getSuit());
 //        }
 
         // Now ask the user for a card
-        System.out.println("Pick a suit for your card");
+        System.out.println("Pick a suit for your card!!!");
 //        for (int i = 0; i < Card.SUITS.length; i++) {
 //            System.out.println((i + 1) + ": " + Card.SUITS[i]);
 //        }
         int suit = input.nextInt();
 
-        System.out.println("Enter a value (1 to 13)");
+        System.out.println("Enter a value (1 to 13)!!!");
         int value = input.nextInt();
 
 //        Card userGuess = new Card(value, Card.SUITS[suit - 1]);
@@ -61,7 +61,7 @@ public class CardGame {
 //            }
 //        }
     
-        String response = match ? "Right guess": "No match";
+        String response = match ? "Right guess": "No match!!!";
         
         System.out.println(response);
     }
