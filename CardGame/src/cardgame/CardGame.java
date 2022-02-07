@@ -9,7 +9,8 @@ import java.util.Scanner;
 
 /**
  *
- * @author Haruun Mohamed
+ * @author Haruun Mohamed Age 19
+ * 
  */
 public class CardGame {
 
