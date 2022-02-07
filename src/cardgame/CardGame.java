@@ -6,7 +6,8 @@ import java.util.Scanner;
 /**
  * This class models a simple card guessing game
  *
- * @author Jeffrey Logue Date - 2022-02-02
+ * @author Jeffrey Logue 
+ * Date: 2022-02-06
  */
 public class CardGame {
 
@@ -53,7 +54,6 @@ public class CardGame {
             if (card.getValue() == userGuess.getValue()
                     && card.getSuit().equals(userGuess.getSuit())) {
                 match = true;
-                printInfo();
                 break;
             }
         }

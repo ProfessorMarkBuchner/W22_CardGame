@@ -1,5 +1,11 @@
 package cardgame;
 
+/**
+ * 
+* @author Jeffrey Logue 
+ * Date: 2022-02-06 
+ */
+
 public class Card {
     
     public static String SUITS[] = {"Hearts", "Clubs", "Spades", "Diamonds"};
