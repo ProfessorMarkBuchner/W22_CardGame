@@ -62,6 +62,8 @@ public class CardGame {
         String response = match ? "Right guess" : "No match";
 
         System.out.println(response);
+        
+        System.out.println("Hello!, I am Shain Shiju Mathew currently studying at Sheridan College (Davis Campus).");
     }
 
 }
